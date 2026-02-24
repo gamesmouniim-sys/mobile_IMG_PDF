@@ -1,0 +1,32 @@
+name: pdf_to_image_premium
+description: Premium PDF to image converter with advanced controls and clean architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  file_picker: ^8.0.5
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  pdfx: ^2.6.0
+  image: ^4.2.0
+  archive: ^3.6.1
+  share_plus: ^9.0.0
+  flutter_isolate: ^2.0.4
+  flutter_animate: ^4.5.0
+  intl: ^0.19.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
